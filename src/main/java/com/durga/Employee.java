@@ -4,9 +4,18 @@ public class Employee {
 
     private String empName;
     private String location;
+    private String designation;
 
     public String getEmpName() {
         return empName;
+    }
+
+    public String getDesignation() {
+        return designation;
+    }
+
+    public void setDesignation(String designation) {
+        this.designation = designation;
     }
 
     public void setEmpName(String empName) {
